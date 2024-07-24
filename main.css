@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8FBC8F;
+    
+
+}
+
+.logs {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #8FBC8F;
+    background: linear-gradient(to top, #fafafa 70%, #7ba57b 50%);
+    
+    
+}
+
+ .hex h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+ 
+}
+
+.user, .lock {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user input, .lock input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Add padding to make space for the icon */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+div  i{
+    position: absolute;
+    top: 49%;
+    left:  -2px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background-color: #8FBC8F;
+    border-radius: 4px;
+    padding: 11.9px;
+    pointer-events: none; /* Makes the icon unclickable */
+} 
+
+div a{
+    text-align: center;
+    margin: 0 auto;
+    color: #7ba57b;
+    /* padding-left:20px ; */
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius:3px;
+    background-color: #7ba57b;
+}
+
+button:hover{
+    opacity: 0.7s;
+}
